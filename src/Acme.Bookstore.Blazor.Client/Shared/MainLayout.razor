@@ -1,0 +1,21 @@
+﻿@inherits LayoutComponentBase
+
+<div class="wrapper">
+    <div class="sidebar">
+        <!-- Sidebar content, ví dụ menu, logo, v.v. -->
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/books">Books</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="content">
+        @Body
+    </div>
+</div>
+
+@code {
+    // Bạn có thể thêm logic ở đây nếu cần
+}
